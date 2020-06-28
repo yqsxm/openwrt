@@ -13,10 +13,10 @@ on:
   push:
     branches: 
       - master
-  # schedule:
-  #   - cron: 0 20 * * *
-  release:
-    types: [star]
+  schedule:
+    - cron: 0 20 * * *
+  # release:
+  #   types: [star]
 
 jobs:
   build:
